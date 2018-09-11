@@ -35,7 +35,7 @@ public class GreedyGraphColoring {
 		
 		}
 
-		int chromaticNumber = g.getChromaticNumber(g);
+		int chromaticNumber = g.getChromaticNumber();
 
 	}
 } 
