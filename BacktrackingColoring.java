@@ -2,7 +2,7 @@
 public class Backtracking {
 	private Graph graph;
 	private int[] color;
-	
+
 	public Backtracking(Graph g) {
 		this.graph = g;
 		this.color = new int[g.getVertexCount()+1];
@@ -10,7 +10,7 @@ public class Backtracking {
 			color[i] = 0;
 		}
 	}
-	
+
 	//checks if the current color c is safe for vertex v
 	boolean isSafe(int v, int c) {
 		int vertices = this.graph.getVertexCount();

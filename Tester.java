@@ -21,11 +21,11 @@ public class Tester {
 		StringTokenizer inp = null;
 
 		try {
-			inp = new StringTokenizer(reader.readLine());	
+			inp = new StringTokenizer(reader.readLine());
 		}catch(IOException e) {
 			System.out.println(e.toString());
 		}
-		
+
 		int vertices = Integer.parseInt(inp.nextToken());
 		int edges = Integer.parseInt(inp.nextToken());
 

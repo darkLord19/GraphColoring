@@ -31,7 +31,7 @@ public class Graph {
 
 	private int V;
 	private ArrayList<Vertex> vertices;
-	
+
 	public Graph(int v) {
 		this.V = v;
 		this.vertices = new ArrayList<>(v);
@@ -47,10 +47,10 @@ public class Graph {
 	public ArrayList<Vertex> getVertices() {
 		return this.vertices;
 	}
-	
+
 	public void addEdge(int u, int v) {
 		this.vertices.get(u).addNeighbour(v);
 		this.vertices.get(v).addNeighbour(u);
 	}
-	
+
 }
